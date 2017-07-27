@@ -13,7 +13,7 @@ SITESUBTITLE = '每个人眼中，都是不同的世界 –柯宝！!'
 RELATIVE_URLS = True
 THEME = 'pelican-themes/voidy-bootstrap/'
 
-SITESUBTITLE ='Sub-title that goes underneath site name in jumbotron.'
+#SITESUBTITLE ='Sub-title that goes underneath site name in jumbotron.'
 SITETAG = "Text that's displayed in the title on the home page."
 STYLESHEET_FILES = ("pygment.css", "voidybootstrap.css",)
 CUSTOM_ARTICLE_FOOTERS = ("taglist.html", "sharing.html", )
