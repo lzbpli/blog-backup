@@ -11,7 +11,7 @@ SITETITLE = '码  链'
 SITESUBTITLE = '每个人眼中，都是不同的世界 –柯宝！!'
 #GRAVATAR_IMAGE = 'https://ooo.0o0.ooo/2017/03/22/58d2308b67793.png'
 RELATIVE_URLS = True
-THEME = 'pelican-themes/voidy-bootstrap/'
+THEME = 'voidy-bootstrap/'
 
 #SITESUBTITLE ='Sub-title that goes underneath site name in jumbotron.'
 SITETAG = "Text that's displayed in the title on the home page."
