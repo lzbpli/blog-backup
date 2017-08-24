@@ -1,4 +1,7 @@
-#LoRaPA功率模块信号测试
+Title: LoRaPA功率模块信号测试
+Date: 2017-8-20
+Category: lora
+authors: ikerbo
 
 ## 信号测试
 

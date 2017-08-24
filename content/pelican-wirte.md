@@ -3,9 +3,6 @@ Date: 2017-7-24
 Category: pelican
 authors: ikerbo
 
-
-# 使用pelican写博客
-
 ## 写博客
 
 在content下面创建一个文件pelican-wirte.md

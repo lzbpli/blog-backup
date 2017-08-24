@@ -115,23 +115,7 @@
 	  {% endblock %}
     </div><!--/.container /#main-container -->
 
-    <footer id="site-footer">
-      {% include 'includes/' + CUSTOM_FOOTER|default('footer.html') ignore missing %} 
-      {% if SKIP_COLOPHON %}
-      <!-- Site built using Pelican.  Theme based on VoidyBootstrap. -->
-      {% else %}
-      <address id="site-colophon">
-        <p class="text-center text-muted">
-        Site built using <a href="http://getpelican.com/" target="_blank">Pelican</a>
-        &nbsp;&bull;&nbsp; Theme based on
-        <a href="http://www.voidynullness.net/page/voidy-bootstrap-pelican-theme/"
-           target="_blank">VoidyBootstrap</a> by 
-        <a href="http://www.robertiwancz.com/"
-           target="_blank">RKI</a>  
-        </p>
-      </address><!-- /colophon  -->
-      {% endif %}
-    </footer>
+
 
     {% include 'includes/piwik.html' %}
     {% include 'includes/disqus_script.html' %}
