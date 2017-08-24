@@ -3,43 +3,37 @@ from __future__ import unicode_literals
 
 AUTHOR = 'ikerbo'
 SITENAME = "码  链"
-SITEURL = 'http://lzbpli.github.io'
+SITEURL = 'http://ikerbo.info'
 TIMEZONE = "Asia/Shanghai"
 
 # can be useful in development, but set to False when you're ready to publish
 SITETITLE = '码  链'
-SITESUBTITLE = '每个人眼中，都是不同的世界 –柯宝！!'
+SITESUBTITLE = '想写点什么！!'
 #GRAVATAR_IMAGE = 'https://ooo.0o0.ooo/2017/03/22/58d2308b67793.png'
 RELATIVE_URLS = True
 THEME = 'voidy-bootstrap/'
 
 #SITESUBTITLE ='Sub-title that goes underneath site name in jumbotron.'
-SITETAG = "Text that's displayed in the title on the home page."
+SITETAG = "想写点什么！!"
 STYLESHEET_FILES = ("pygment.css", "voidybootstrap.css",)
-CUSTOM_ARTICLE_FOOTERS = ("taglist.html", "sharing.html", )
-CUSTOM_SCRIPTS_ARTICLE = "sharing_scripts.html"
+#CUSTOM_ARTICLE_FOOTERS = ("taglist.html", "sharing.html", )
+#CUSTOM_SCRIPTS_ARTICLE = "sharing_scripts.html"
 SIDEBAR = "sidebar.html"
 
-GITHUB_URL = 'http://github.com/lzbpli/'
-DISQUS_SITENAME = "blog-notmyidea"
+GITHUB_URL = 'http://ikerbo.info'
+#DISQUS_SITENAME = "blog-notmyidea"
 REVERSE_CATEGORY_ORDER = True
 LOCALE = "C"
 DEFAULT_PAGINATION = 4
 DEFAULT_DATE = (2017, 3, 2, 14, 1, 1)
 
-FEED_ALL_RSS = 'feeds/all.rss.xml'
-CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+#FEED_ALL_RSS = 'feeds/all.rss.xml'
+#CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
-LINKS = (('Biologeek', 'http://biologeek.org'),
-         ('Filyb', "http://filyb.info/"),
-         ('Libert-fr', "http://www.libert-fr.com"),
-         ('N1k0', "http://prendreuncafe.com/blog/"),
-         ('Tarek Ziadé', "http://ziade.org/blog"),
-         ('Zubin Mithra', "http://zubin71.wordpress.com/"),)
+LINKS = (('Zubin Mithra', "http://zubin71.wordpress.com/"),)
 
-SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
-          ('lastfm', 'http://lastfm.com/user/akounet'),
-          ('github', 'http://github.com/ametaireau'),)
+SOCIAL = (('ikerbo', 'http://ikerbo.com'),
+          ('github', 'http://github.com/lzbpli'),)
 
 # global metadata to all the contents
 DEFAULT_METADATA = {'yeah': 'it is'}
